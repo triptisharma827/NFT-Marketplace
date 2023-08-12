@@ -8,30 +8,40 @@
       name="description"
       content="Web site for NFT MarketPlace"
     />
-    
 
+    <!-- Link to Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>    
+    
+    <!-- Link to Bootstrap JS bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     
     <title>NFT MarketPlace</title>
+    
+    <!-- Link to custom CSS file -->
     <link rel="stylesheet" href="./style.css">
   
   </head>
   <body>
     <div class="App">
+        <!-- Header section -->
         <header class="App-header">
           <h1>NFT Marketplace</h1>
-          </header>
+        </header>
          
-            <div id="app" class="App-list row">
-            </div>
+        <!-- Container for rendering owned NFTs -->
+        <div id="app" class="App-list row"></div>
           
-            <div id="mint" class="App-list row"></div>
-            <script src="https://cdn.jsdelivr.net/npm/web3@1.5.3/dist/web3.min.js"></script>
-            <script src="mint.js" type="module"></script>
-       
+        <!-- Container for rendering minted NFTs -->
+        <div id="mint" class="App-list row"></div>
+        
+        <!-- Script tag to include the Web3 library -->
+        <script src="https://cdn.jsdelivr.net/npm/web3@1.5.3/dist/web3.min.js"></script>
+        
+        <!-- Script tag to include the 'mint.js' module -->
+        <script src="mint.js" type="module"></script>
       </div>
- <div id="app"></div>
-    <script src="app.js"></script>
+    
+      <!-- Script tag to include the 'app.js' script -->
+      <script src="app.js"></script>
   </body>
 </html>
